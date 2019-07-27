@@ -925,12 +925,11 @@ section.navbar-fixed {
   color: $secondary !important;
 }
 .nav > li.active > .menu-toggle {
-  background: $primary !important;
-  color: #fff !important;
+  color: $primary !important;
 }
 .scrolled.bg-dark-image .nav > li.active > a,
 .scrolled.bg-dark-image .nav > li.open > a {
-  color: #fff !important;
+  color:$primary !important;
 }
 
 /* search toggle + input */
