@@ -235,8 +235,8 @@ h6,
   left: 50%;
   margin: 0 0 0 -20px;
   width: 40px;
-  height: 1px;
-  background: rgba(111, 111, 111, 0.2);
+  height: 3px;
+  background: $secondary;
 }
 .bg-greydark .b-bottom:after {
   background: rgba(111, 111, 111, 0.7);
