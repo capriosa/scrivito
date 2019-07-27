@@ -1173,10 +1173,10 @@ section.navbar-fixed {
     color: darken($primary, 50%);
   }
   .active .menu-toggle .fa {
-    color: #fff;
+    color: $primary;
   }
   .open .menu-toggle .fa {
-    color: #fff;
+    color: $primary;
     transform: rotate(180deg);
   }
 
