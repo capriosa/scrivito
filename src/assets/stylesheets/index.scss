@@ -922,8 +922,8 @@ section.navbar-fixed {
 }
 
 .nav > li.open > .menu-toggle {
-  background: $nav-hover !important;
-  color: #fff !important;
+
+  color: $secondary !important;
 }
 .nav > li.active > .menu-toggle {
   background: $primary !important;
