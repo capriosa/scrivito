@@ -130,13 +130,7 @@ body {
   background: transparent;
 }
 
-.text-brand-primary{color:#80c209 ;}
-.text-brand-secondary{color: #00476a ;}
-.text-font-color{color: rgb(83,83,83); }
-.text-greydark{color: rgb(209,213,204); }
-.text-grey{color: rgb(238,242,231); }
-.text-alert-color{color: rgb(249,168,68); }
-.text-font-color{color: rgb(83,83,83); }
+
 
 .container,
 .container-fluid {
@@ -650,7 +644,7 @@ $easing: cubic-bezier(0.7, 0, 0, 0.7);
   .table-features,
   .card.card-theme,
   .edit-mode-link {
-    color: #fff !important;
+    color: #fff;
   }
 }
 
@@ -3298,3 +3292,11 @@ img.cookie-img {
     line-height: 45px;
   }
 }
+
+.text-brand-primary{color:#80c209 !important;}
+.text-brand-secondary{color: #00476a !important;}
+.text-font-color{color: rgb(83,83,83) !important; }
+.text-greydark{color: rgb(209,213,204) !important; }
+.text-grey{color: rgb(238,242,231) !important; }
+.text-alert-color{color: rgb(249,168,68) !important; }
+.text-font-color{color: rgb(83,83,83) !important; }
