@@ -12,12 +12,13 @@ const SectionWidget = Scrivito.provideWidgetClass("SectionWidget", {
       {
         values: [
           "white",
-          "greywhite",
-          "greylight",
-          "greymiddle",
-          "greydark",
           "brand-primary",
           "brand-secondary",
+          "secondary-dark",
+          "grey",
+          "greydark",
+          "font-color",
+          "alert-color",
         ],
       },
     ],

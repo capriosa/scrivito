@@ -11,12 +11,13 @@ Scrivito.provideEditingConfig("SectionWidget", {
         "Does not apply if a background image is set. Default: White",
       values: [
         { value: "white", title: "White" },
-        { value: "greywhite", title: "White grey" },
-        { value: "greylight", title: "Light grey" },
-        { value: "greymiddle", title: "Grey" },
-        { value: "greydark", title: "Dark grey" },
         { value: "brand-primary", title: "Primary color" },
         { value: "brand-secondary", title: "Secondary color" },
+        { value: "secondary-dark", title: "Secondary dark" },
+        { value: "grey", title: "Grey light" },
+        { value: "greydark", title: "Grey dark" },
+        { value: "font-color", title: "Font color" },
+        { value: "alert-color", title: "Alert color" },
       ],
     },
     useFullWidth: {
