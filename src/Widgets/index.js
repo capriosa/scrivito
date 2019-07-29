@@ -4,7 +4,6 @@ import "scrivito-adv-button/index.css";
 import "scrivito-areachart";
 import "scrivito-barchart";
 import "scrivito-blockquote";
-import "scrivito-blockquote/index.css";
 import "scrivito-clippath-image";
 import "scrivito-clippath-image/index.css";
 import "scrivito-collapsible-card";
