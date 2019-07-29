@@ -1,0 +1,6 @@
+.fa,.tick-list-widget li:before{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.tick-list-widget{list-style-type:none;padding-left:15px}.tick-list-widget::after{display:block;clear:both;content:""}.tick-list-widget li{position:relative;padding:0 0 20px 17px;font-family:"PT Sans Narrow", sans-serif;font-weight:400;font-size:20px}.tick-list-widget li:before{display:block;position:absolute;top:2px;left:-15px;content:"\f00c" !important;color:#00476a}
+
+.vimeo-video-widget--fullsize-iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+
+.youtube-video-widget--fullsize-iframe{position:absolute;top:0;left:0;width:100%;height:100%}
+
