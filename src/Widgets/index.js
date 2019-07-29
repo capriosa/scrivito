@@ -9,6 +9,7 @@ import "scrivito-content-lists";
 import "scrivito-countdown";
 import "scrivito-eventbrite";
 import "scrivito-eyecatcher";
+import "scrivito-eyecatcher/index.css";
 import "scrivito-fancy-header";
 import "scrivito-follow-on-twitter";
 import "scrivito-highlight-code";
