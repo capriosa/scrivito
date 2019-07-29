@@ -24,6 +24,7 @@ import "scrivito-tabs";
 import "scrivito-time-ago";
 import "scrivito-twitter-timeline";
 import "scrivito-undraw";
+import "scrivito-undraw/index.css";
 
 
 
