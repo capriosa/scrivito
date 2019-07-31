@@ -18,6 +18,7 @@ import "scrivito-follow-on-twitter";
 import "scrivito-highlight-code";
 import "scrivito-jw-video-player";
 import "scrivito-linechart";
+import "scrivito-news-reader";
 import "scrivito-piechart";
 import "scrivito-progressbar";
 import "scrivito-progressbar/index.css";
