@@ -1,4 +1,5 @@
 import "scrivito-accessible-accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
 import "scrivito-adv-button";
 import "scrivito-adv-button/index.css";
 import "scrivito-areachart";
