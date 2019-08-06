@@ -17,7 +17,7 @@ import "scrivito-fancy-header";
 import "scrivito-fancy-header/index.css";
 import "scrivito-follow-on-twitter";
 import "scrivito-highlight-code";
-import "scrivito-eyecatcher/index.css";
+import "scrivito-highlight-code/index.css";
 import "scrivito-jw-video-player";
 import "scrivito-linechart";
 import "scrivito-news-reader";
