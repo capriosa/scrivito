@@ -8,6 +8,7 @@ import "scrivito-blockquote";
 import "scrivito-clippath-image";
 import "scrivito-clippath-image/index.css";
 import "scrivito-collapsible-card";
+import "scrivito-collapsible-card/index.css";
 import "scrivito-content-lists";
 import "scrivito-countdown";
 import "scrivito-eventbrite";
