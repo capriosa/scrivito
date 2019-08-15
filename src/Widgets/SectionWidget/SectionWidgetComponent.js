@@ -2,7 +2,7 @@ import * as React from "react";
 import * as Scrivito from "scrivito";
 
 Scrivito.provideComponent("SectionWidget", ({ widget }) => {
-  const classNames = '';
+  const classNames = ['section'];
   const sectionClassNames = [];
   const sectionStyle = {};
 
@@ -74,7 +74,7 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
   return (
     <Scrivito.BackgroundImageTag
       tag="section"
-      className={classNames}
+      className={classNames.join(" ")}
       style={sectionStyle}
     >
       <Scrivito.ContentTag
