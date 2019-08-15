@@ -30,6 +30,21 @@ Scrivito.provideEditingConfig("SectionWidget", {
       description: "Default: No",
       values: [{ value: "yes", title: "Yes" }, { value: "no", title: "No" }],
     },
+    useGradient: {
+      title: "Use gradient for background image?",
+      description: "Default: No",
+      values: [{ value: "yes", title: "Yes" }, { value: "no", title: "No" }],
+    },
+    rightBorder: {
+      title: "Set a white right border?",
+      description: "Default: Yes",
+      values: [{ value: "yes", title: "Yes" }, { value: "no", title: "No" }],
+    },
+    verticalAlign: {
+      title: "Set the vertical alignment of child elements",
+      description: "Default: Center",
+      values: [{ value: "top", title: "Top" }, { value: "center", title: "Center" }, {value: "bottom", title: "Bottom"}],
+    },
     showPadding: {
       title: "Show padding?",
       description: "Padding adds space around this section. Default: Yes",
@@ -59,6 +74,9 @@ Scrivito.provideEditingConfig("SectionWidget", {
     "backgroundColor",
     "backgroundImage",
     "boxHeight",
+    "useGradient",
+    "rightBorder",
+    "verticalAlign",
     "useFullWidth",
     "useFullHeight",
     "showPadding",
@@ -66,6 +84,9 @@ Scrivito.provideEditingConfig("SectionWidget", {
   initialContent: {
     boxHeight: "50",
     backgroundColor: "white",
+    useGradient: "no",
+    rightBorder: "yes",
+    verticalAlign: "center",
     showPadding: "yes",
     useFullHeight: "no",
     useFullWidth: "no",

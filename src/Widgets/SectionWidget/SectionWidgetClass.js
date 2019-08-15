@@ -35,6 +35,9 @@ const SectionWidget = Scrivito.provideWidgetClass("SectionWidget", {
         "100",
       ],
     }],
+    useGradient: ["enum", { values: ["yes", "no"]} ],
+    rightBorder: ["enum", { values: ["yes", "no"]} ],
+    verticalAlign: ["enum", { values: ["top", "center", "bottom"]}],
     backgroundImage: ["reference", { only: ["Image"] }],
   },
 });

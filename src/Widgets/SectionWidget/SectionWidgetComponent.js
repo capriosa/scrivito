@@ -3,18 +3,46 @@ import * as Scrivito from "scrivito";
 
 Scrivito.provideComponent("SectionWidget", ({ widget }) => {
 
-  const sectionClassNames = [];
+  const sectionClassNames = ['d-flex'];
   const sectionStyle = {};
 
-  let backgroundColor = widget.get("backgroundColor") || "white";
+  const backgroundColor = widget.get("backgroundColor") || "white";
+  const useGradient = widget.get("useGradient") === "yes";
+  const rightBorder = widget.get("rightBorder") === "yes";
+  const verticalAlgin = widget.get("verticalAlign");
+
+
 
   const backgroundImage = widget.get("backgroundImage");
   if (backgroundImage) {
-    backgroundColor = "dark-image";
+
     sectionStyle.background = [
-      
       { image: backgroundImage },
     ];
+  }
+
+  if (rightBorder) {
+    sectionClassNames.push('border-right')
+  }
+
+  if (useGradient) {
+
+    sectionStyle.background = [
+      {
+        image: "linear-gradient(rgba(46, 53, 60, 0.7), rgba(46, 53, 60, 0.7))",
+      },
+      { image: backgroundImage },
+    ];
+  }
+
+  if (verticalAlgin === "top") {
+    sectionClassNames.push("align-items-start")
+  }
+  if (verticalAlgin === "center") {
+    sectionClassNames.push("align-items-center")
+  }
+  if (verticalAlgin === "bottom") {
+    sectionClassNames.push("align-items-end")
   }
 
   if (widget.get("boxStyle") !== "white") {

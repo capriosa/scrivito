@@ -3362,5 +3362,12 @@ select {
 
 section {
   padding-top: 10px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 2px solid #fff !important;
 }
+
+@media (min-width: $screen-md-min) {
+  .border-right {
+    border-right: 2px solid #fff !important;
+  }
+}
+
