@@ -3362,4 +3362,9 @@ select {
 
 section {
   padding-top: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.row + section {
+  border-right: 1px solid #fff;
 }
