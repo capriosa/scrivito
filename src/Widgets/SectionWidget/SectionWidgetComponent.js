@@ -20,40 +20,40 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
   }
 
   if (widget.get("boxStyle") !== "white") {
-    sectionClassNames.push(widget.get("boxStyle"))
+    classNames.push(widget.get("boxStyle"))
   }
   if (widget.get("useOffset") === "yes") {
-    sectionClassNames.push("box-offset");
+    classNames.push("box-offset");
   }
   if (widget.get("boxHeight") === "5") {
-    sectionClassNames.push("height-5");
+    classNames.push("height-5");
   }
   if (widget.get("boxHeight") === "10") {
-    sectionClassNames.push("height-10");
+    classNames.push("height-10");
   }
   if (widget.get("boxHeight") === "15") {
-    sectionClassNames.push("height-15");
+    classNames.push("height-15");
   }
   if (widget.get("boxHeight") === "20") {
-    sectionClassNames.push("height-20");
+    classNames.push("height-20");
   }
   if (widget.get("boxHeight") === "25") {
-    sectionClassNames.push("height-25");
+    classNames.push("height-25");
   }
   if (widget.get("boxHeight") === "33") {
-    sectionClassNames.push("height-33");
+    classNames.push("height-33");
   }
   if (widget.get("boxHeight") === "50") {
-    sectionClassNames.push("height-50");
+    classNames.push("height-50");
   }
   if (widget.get("boxHeight") === "66") {
-    sectionClassNames.push("height-66");
+    classNames.push("height-66");
   }
   if (widget.get("boxHeight") === "75") {
-    sectionClassNames.push("height-75");
+    classNames.push("height-75");
   }
   if (widget.get("boxHeight") === "100") {
-    sectionClassNames.push("height-100");
+    classNames.push("height-100");
   }
 
   sectionClassNames.push(`bg-${backgroundColor}`);

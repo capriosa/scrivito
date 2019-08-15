@@ -1864,7 +1864,7 @@ section.navbar-fixed {
   border: 0;
 }
 .card-theme .card-body {
-  padding: 20px 0;
+  padding: 0 0;
 }
 .card-theme a:hover {
   text-decoration: none;
@@ -3175,7 +3175,7 @@ img.cookie-img {
 }
 .gm-style label {
   width: auto;
-  display: inline;
+  display: inline-block;
 }
 
 /* disable selection, see https://stackoverflow.com/a/4407335/881759 for details
@@ -3295,11 +3295,22 @@ img.cookie-img {
 
 .text-brand-primary{color:#80c209 !important;}
 .text-brand-secondary{color: #00476a !important;}
-.text-font-color{color: rgb(83,83,83) !important; }
-.text-greydark{color: rgb(209,213,204) !important; }
+.text-brand-secondary-dark{color: #b1b38a !important;}
+.text-font-color{color: #000 !important; }
+.text-greydark{color: #333 !important; }
 .text-grey{color: rgb(238,242,231) !important; }
 .text-alert-color{color: rgb(249,168,68) !important; }
-.text-font-color{color: rgb(83,83,83) !important; }
+
+.brand-primary{background-color:#80c209 !important;}
+.brand-secondary{background-color: #00476a !important;}
+.brand-secondary-dark{background-color: #b1b38a !important;}
+.font-color{background-color: #000 !important; }
+.greydark{background-color: #333 !important; }
+.grey{background-color: rgb(238,242,231) !important; }
+.alert-color{background-color: rgb(249,168,68) !important; }
+
+
+
 
 .rectangle {
   width: 320px;
@@ -3307,4 +3318,44 @@ img.cookie-img {
 
 select {
   margin: 9px;
+}
+
+.height-10 {
+  height: 10vh;
+}
+
+.height-15 {
+  height: 15vh;
+}
+
+.height-20 {
+  height: 20vh;
+}
+
+.height-25 {
+  height: 25vh;
+}
+
+.height-33 {
+  height: 33.333333vh;
+}
+
+.height-50 {
+  height: 50vh !important;
+}
+
+.height-66 {
+  height: 66.666666vh;
+}
+
+.height-75 {
+  height: 75vh;
+}
+
+.height-100 {
+  height: 100vh;
+}
+
+.card {
+  border: none !important;
 }
