@@ -3365,6 +3365,6 @@ section {
   border-bottom: 1px solid #fff;
 }
 
-.row + div {
+.row:nth-child(1n) {
   border-right: 1px solid #fff;
 }
