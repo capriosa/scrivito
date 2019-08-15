@@ -38,15 +38,33 @@ Scrivito.provideEditingConfig("SectionWidget", {
     backgroundImage: {
       title: "Background image",
     },
+    boxHeight: {
+      title: "Box height",
+      description: "Default: 50vh",
+      values: [
+        { value: "10", title: "10vh" },
+        { value: "15", title: "15vh" },
+        { value: "20", title: "20vh" },
+        { value: "25", title: "25vh" },
+        { value: "33", title: "33vh" },
+        { value: "50", title: "50vh" },
+        { value: "66", title: "66vh" },
+        { value: "75", title: "75vh" },
+        { value: "100", title: "100vh" },
+
+      ],
+    },
   },
   properties: [
     "backgroundColor",
     "backgroundImage",
+    "boxHeight",
     "useFullWidth",
     "useFullHeight",
     "showPadding",
   ],
   initialContent: {
+    boxHeight: "50",
     backgroundColor: "white",
     showPadding: "yes",
     useFullHeight: "no",

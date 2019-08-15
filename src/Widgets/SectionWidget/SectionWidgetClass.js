@@ -14,7 +14,7 @@ const SectionWidget = Scrivito.provideWidgetClass("SectionWidget", {
           "white",
           "brand-primary",
           "brand-secondary",
-          "secondary-dark",
+          "brand-secondary-dark",
           "grey",
           "greydark",
           "font-color",
@@ -22,6 +22,19 @@ const SectionWidget = Scrivito.provideWidgetClass("SectionWidget", {
         ],
       },
     ],
+    boxHeight: ["enum", {
+      values: [
+        "10",
+        "15",
+        "20",
+        "25",
+        "33",
+        "50",
+        "66",
+        "75",
+        "100",
+      ],
+    }],
     backgroundImage: ["reference", { only: ["Image"] }],
   },
 });
