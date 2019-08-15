@@ -8,6 +8,7 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
 
   let backgroundColor = widget.get("backgroundColor") || "white";
 
+
   const backgroundImage = widget.get("backgroundImage");
   if (backgroundImage) {
     backgroundColor = "dark-image";
@@ -56,13 +57,13 @@ Scrivito.provideComponent("SectionWidget", ({ widget }) => {
     classNames.push("height-100");
   }
 
-  sectionClassNames.push(`bg-${backgroundColor}`);
+
 
   if (widget.get("showPadding") === "no") {
     sectionClassNames.push("no-padding");
   }
 
-  let contentClassName = "container";
+  let contentClassName = "container " . backgroundColor;
   if (widget.get("useFullWidth") === "yes") {
     contentClassName = "container-fluid gutter0";
   }
