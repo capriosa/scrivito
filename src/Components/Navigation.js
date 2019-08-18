@@ -93,7 +93,7 @@ class Navigation extends React.Component {
       isLandingPage,
     } = currentPageNavigationOptions();
 
-    const topSectionClassNames = ["navbar-fixed"];
+    const topSectionClassNames = ["navbar"];
     if (this.state.scrolled) {
       topSectionClassNames.push("scrolled");
     }
