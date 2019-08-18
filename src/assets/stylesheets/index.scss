@@ -3371,7 +3371,24 @@ section {
   }
 }
 
-.p-large, .border-deco {
+.p-large {
   color: #fff;
 }
 
+.deco-border::before {
+  content: "";
+  display: block;
+  margin: 40px auto;
+  width: 33vw;
+  height: 3px;
+  background: #fff;
+}
+
+.deco-border::after {
+  content: "";
+  display: block;
+  margin: 40px auto;
+  width: 33vw;
+  height: 3px;
+  background: #fff;
+}
