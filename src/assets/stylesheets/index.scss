@@ -689,7 +689,7 @@ footer {
 
 .full-height {
   display: flex;
-  min-height: 100vh;
+  min-height: 100vh !important;
 }
 .medium-height .container,
 .full-height .container {
